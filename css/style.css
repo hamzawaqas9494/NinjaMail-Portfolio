@@ -1,0 +1,851 @@
+*{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+ .navbar {
+     max-width: 1500px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0px 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family:'Playfair Display', serif;
+}
+a{
+   font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+ ul li {
+     font-style: normal;
+     font-weight: 800;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: 1.275px;
+     padding-left: 15px;
+
+}
+ .navbar-light .navbar-nav .nav-link {
+     text-decoration:underline;
+     text-decoration-color:#4BA87D;
+     text-decoration-style: solid;
+     text-decoration-thickness:4px;
+     text-underline-offset:6px ;
+     color: black;
+}
+ .button{
+     color: white;
+     text-decoration:none;
+     background:#4BA87D;
+     font-style:normal;
+     font-weight:800;
+     font-size:16px;
+     line-height:20px;
+     text-align:center;
+     letter-spacing:1.275px;
+     color: #FFFFFF;
+}
+ .button:hover{
+     color:white;
+}
+ .box-1 {
+     position:relative;
+     margin-top:100px;
+}
+ .Rectangle-1 {
+     position:absolute;
+     left:150px;
+     top:-60px;
+}
+ .Rectangle-2{
+     position:absolute;
+     bottom:-45px;
+     left:50px;
+}
+ .Rectangle-3 {
+     position: absolute;
+     right: -20px;
+     top: -15px;
+     z-index: -1;
+}
+ .Ellipse-1 {
+     position: absolute;
+     left: 600px;
+     top: -5px;
+     z-index: -1;
+}
+ .Ellipse-5 {
+     position: absolute;
+     bottom: 156px;
+     left: -18px;
+}
+ .Rectangle-9 {
+     position: absolute;
+     right: 220px;
+     top: -70px;
+}
+ .box-1-left h1 {
+     font-style: normal;
+     font-weight: 900;
+     font-size: 68px;
+     line-height: 71px;
+     position: absolute;
+     top: 75px;
+     color: #000000;
+     z-index: 1;
+}
+ .box-1-left p {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 26px;
+     color: #000000;
+     position: absolute;
+     top:250px;
+     z-index: 1;
+}
+ .button1 {
+     position: absolute;
+     top: 365px;
+     z-index: 1;
+}
+ .button2{
+     background: #4BA87D;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 30px;
+     line-height: 25px;
+     text-align: center;
+     letter-spacing: 1.05px;
+     color: #FFFFFF;
+     text-decoration: none;
+}
+ .button2:hover{
+     color: white;
+}
+ .button3{
+     background: #FFFFFF;
+     border: 3px solid #4BA87D;
+     box-sizing: border-box;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 30px;
+     line-height: 25px;
+     text-decoration: none;
+     text-align: center;
+     letter-spacing: 2.1px;
+     color: #4BA87D;
+}
+ .button3:hover{
+     color: #4BA87D;
+}
+ .image1{
+     width: 100%;
+     filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+}
+ .background {
+     background-position:center ;
+     background-repeat: no-repeat;
+     background-image: url(../images/Group3.png);
+}
+ .background {
+     padding-top: 275px;
+}
+ .video-box{
+     width: 100%;
+     text-align: center;
+     position: relative;
+}
+ .video-box img{
+     position: relative;
+}
+ .video-box h1 {
+     font-style: normal;
+     font-weight: 900;
+     font-size: 60px;
+     line-height: 80px;
+     color: white;
+     text-align: center;
+     position: absolute;
+     top: 180px;
+     z-index: 1;
+     left: 0px;
+     right: 0px;
+}
+ .button4 {
+     text-align: center;
+     position: absolute;
+     left: 0px;
+     right: 0px;
+     top: 300px;
+     z-index: 1;
+}
+ .button5{
+     background: #FFFFFF;
+     border: 3px solid #4BA87D;
+     box-sizing: border-box;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 20px;
+     line-height: 25px;
+     text-decoration: none;
+     text-align: center;
+     letter-spacing: 2.1px;
+     color: #4BA87D;
+}
+ .button6,.button5:hover{
+     color: #4BA87D;
+}
+ .card1,.card2{
+     background: white;
+}
+ .card1{
+     margin-top: 40px;
+}
+ .card2,.card3{
+     margin-top: 100px;
+}
+ .card-title1{
+     font-style: normal;
+     font-weight: 900;
+     font-size: 40px;
+     line-height: 48px;
+     color: #000000;
+}
+ .card-text1{
+     font-style: normal;
+     font-weight: 500;
+     font-size: 19px;
+     line-height: 26px;
+}
+ .card-body a{
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 28px;
+     text-decoration: none;
+     color: #4BA87D;
+}
+ .card-body {
+     margin-top: 120px;
+     position: relative;
+}
+ .card-body p
+ {
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #000000;
+}
+ .col-image1{
+     width: 100%;
+}
+ .card-body h1{
+     position: absolute;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 34px;
+     line-height: 40px;
+     top: 170px;
+     left: 40px;
+     color: #FFFFFF;
+}
+ .card-body h6{
+     position: absolute;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 22px;
+     top: 215px;
+     left: 40px;
+     color: #FFFFFF;
+}
+ .text-learn p{
+     width: 100%;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 48px;
+     text-align: center;
+     color: #000000;
+     margin-top: 40px;
+     font-family:'Playfair Display', serif;
+}
+ form {
+     width: 100%;
+     margin-top: 40px;
+     text-align: center;
+}
+ form h6 {
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 25px;
+     margin-top: 10px;
+     letter-spacing: 1.05px;
+     color: #4BA87D;
+     margin-left: -140px;
+}
+ .btn{
+     background: #4BA87D;
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 16px;
+     line-height: 25px;
+     text-align: center;
+     letter-spacing: 1.05px;
+     color: #FFFFFF;
+     text-decoration: none;
+}
+ .btn:hover{
+     color: white;
+}
+ .btn1{
+     background: #4BA87D;
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 16px;
+     line-height: 25px;
+     text-align: center;
+     letter-spacing: 1.05px;
+     color: #FFFFFF;
+     text-decoration: none;
+}
+ .btn1:hover{
+     color: white;
+}
+ .brand-text p {
+     font-style: normal;
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 48px;
+     text-align: center;
+     color: #000000;
+     margin-top: 65px;
+     font-family:'Playfair Display', serif;
+}
+ .pick-plan {
+     background: #4BA87D;
+     height: 300px;
+     margin-top: 100px;
+}
+ .plan h1 {
+     margin-top: 50px;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 60px;
+     line-height: 80px;
+     text-align: center;
+     color: #FFFFFF;
+}
+ .button8 a {
+     background: #FFFFFF;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 20px;
+     line-height: 25px;
+     text-decoration: none;
+     text-align: center;
+     letter-spacing: 2.1px;
+     color: #4BA87D;
+}
+ .button8 {
+     margin-top: 50px;
+}
+ .footer {
+     margin-top: 50px;
+}
+ .pick-plan{
+     max-width: 1500px;
+     width: 100%;
+     margin: 60px auto;
+}
+ .footer li {
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+     color: #000000;
+     text-decoration: none;
+     list-style: none;
+     margin-bottom: 10px;
+     letter-spacing: 0.5px;
+     padding-left: 0px;
+}
+ .footer ul{
+     margin-bottom: 50px;
+     padding-left:0px;
+}
+ .links-foot span{
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 10px;
+     line-height: 18px;
+     color: #000000;
+}
+ .terms{
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 18px;
+     color: #000000;
+     text-decoration: none;
+}
+.term{
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 11px;
+text-decoration: none;
+color: #000000;
+    }
+    .term:hover{
+
+        color: black;
+    }
+
+.terms:hover{
+
+color: black;
+
+   }
+ .card-body img {
+     width: 100%;
+     height: 240px;
+     object-fit: fill;
+}
+
+ .btn2{
+     display: none;
+}
+ .card-box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .slider-list {
+     list-style-type: none;
+     padding-left: 0;
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+}
+ .slider-list li{
+     padding: 0px;
+}
+ .slider-item:not(.slider-item:last-child) {
+}
+ .slider-item img {
+}
+ .slider-arrows {
+     display: flex;
+     justify-content: space-between;
+}
+ .slider-arrow-prev{
+     border: none;
+}
+ .slider-arrow-next{
+     border: none;
+}
+ .section-padding{
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ .owl-item img {
+     display: block;
+     width: 200% !important;
+}
+ .owl-item{
+   
+     margin-right: 16px !important;
+}
+
+ .owl-dot {
+     display: inline-block;
+     height: 15px !important;
+     width: 15px !important;
+     background-color: #878787 !important;
+     opacity: 0.8;
+     border-radius: 50%;
+}
+ .owl-dot.active {
+     background-color: #000 !important;
+}
+
+
+@media (max-width: 1400px){
+
+
+.box-1-left h1 {
+
+    font-size: 58px;
+        line-height: 60px;
+}
+.box-1-left p {
+   
+    font-size: 18px;
+   
+}
+.button1 {
+    
+    top: 350px;
+
+}
+
+.button2 {
+    
+    font-size: 24px;
+}
+.Rectangle-2 {
+    bottom: -55px;
+    left: 20px;
+}
+.button3 {
+   
+    font-size: 22px;
+}
+}
+@media (max-width: 1200px){
+
+
+.box-1-left h1 {
+
+    font-size: 50px;
+        line-height: 60px;
+        top: 30px;
+}
+.box-1-left p {
+   
+    font-size: 16px;
+    top: 170px;
+   
+}
+.button1{
+    top: 265px;
+}
+    .button2 {
+    
+    font-size: 18px;
+}
+   .button3 {
+    
+    font-size: 16px;
+}
+.Rectangle-2 {
+    bottom: -55px;
+    left: 20px;
+}
+.Rectangle-2 {
+    bottom: -50px;
+}
+.card-title1 {
+
+    font-size: 32px;
+
+}
+}
+
+
+ @media (max-width:992px){
+     .background {
+         padding-top: 120px;
+         margin-top: 40px;
+    }
+    .button2 {
+    
+    font-size: 18px;
+}
+   .button3 {
+    
+    font-size: 16px;
+}
+.Rectangle-2 {
+    bottom: -55px;
+    left: 20px;
+}
+.button3 {
+   
+    font-size: 26px;
+}
+    .Rectangle-1 {
+    left: 90px;
+    top: -40px;
+}
+.Ellipse-1 {
+    left: 390px;
+    top: -10px;
+}
+
+     .box-1-left h1 {
+         font-size: 36px;
+         line-height: 40px;
+    }
+     .box-1-left p {
+         font-size: 12px;
+         line-height: 20px;
+         top: 130px;
+    }
+    .button2 {
+    
+    font-size: 12px;
+    
+}
+    .button3 {
+
+    font-size: 12px;
+   
+}
+     .card-body {
+         margin-top: 20px;
+    }
+     .card-body img {
+         height: 180px;
+    }
+     .image3 {
+         width: 100%;
+    }
+     .video-box h1 {
+     
+         font-size: 46px;
+    }
+     .button5 {
+         font-size: 12px;
+    }
+     .button4 {
+         top: 280px;
+    }
+     .card-body p{
+         font-size: 14px;
+    }
+     .card-title1 {
+         font-size: 24px;
+         line-height: 25px;
+    }
+     .card-text1 {
+         line-height: 18px;
+    }
+     .brand-text {
+         margin-top: 60px;
+    }
+     .card-body h1 {
+         top: 130px;
+         left: 27px;
+         font-size: 20px;
+    }
+     .card-body h6 {
+         font-size: 13px;
+         top: 165px;
+         left: 27px;
+    }
+     .text-learn {
+         font-size: 35px;
+         line-height: 40px;
+
+    }
+     .video-box img {
+         position: relative;
+         height: 400px;
+    }
+     .button1 {
+         top: 190px;
+    }
+    .Rectangle-2 {
+    bottom: -25px;
+    }
+    .logo-footer{
+
+        width: 100%;
+    }
+    .footer ul {
+    
+    padding-left: 0px;
+}
+}
+
+ @media (max-width: 768px) {
+     .box-1 {
+         margin-top: 20px;
+    }
+     .box-1-left h1 {
+         font-size: 28px;
+         line-height: 30px;
+         top: 15px;
+    }
+     .Rectangle-1 {
+         position: absolute;
+         left: 330px;
+         top: -60px;
+         display: none;
+    }
+     .Rectangle-2{
+         display: none;
+    }
+     .Rectangle-3 {
+         display: none;
+    }
+     .Ellipse-1 {
+         display: none;
+    }
+     .Ellipse-5 {
+         display: none;
+    }
+     .Rectangle-9 {
+         display: none;
+    }
+     .box-1-left p {
+         top: 90px;
+         font-size: 10px;
+         line-height: 16px;
+    }
+     .button1 {
+         top: 140px;
+    }
+     .button4 {
+         margin-top: 40px;
+    }
+     .button2, .button3{
+         font-size: 10px;
+    }
+     .button2{
+         font-size: 10px;
+    }
+     .card-title1 {
+         font-size: 17px;
+    }
+     .video-box h1 {
+         top: 80px;
+    }
+     .button4 {
+         top: 140px;
+    }
+     .video-box img {
+         height: 300px;
+    }
+}
+ @media (max-width: 575px){
+
+    .box-1{
+height: 440px;
+margin-top: 80px;
+    }
+    .button2 {
+    font-size: 30px;
+}
+.button3 {
+    font-size: 26px;
+}
+     .navbar-light .navbar-brand {
+         width: 50%;
+    }
+    
+     .navbar-light .navbar-brand img {
+         width: 100%;
+    }
+
+  .btn2{
+         background: #4BA87D;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 16px;
+         line-height: 25px;
+         text-align: center;
+         letter-spacing: 1.05px;
+         color: #FFFFFF;
+         text-decoration: none;
+         display: block;
+    }
+     .btn2:hover{
+         color: white;
+    }
+     .navbar-light .navbar-toggler {
+         display: none;
+    }
+     .box-1-left h1 {
+    font-size: 66px;
+    line-height: 70px;
+    left: 15px;
+        top: -65px;
+}
+.box-1-left p {
+    top: 315px;
+    font-size: 18px;
+    line-height: 22px;
+    left: 15px;
+}
+.button1 {
+    top: 400px;
+    left: 15px;
+}
+ 
+    
+     .card2, .card3 {
+         margin-top: 30px;
+    }
+     .image3 {
+         width: 100%;
+    }
+     .video-box h1 {
+    margin-top: -30px;
+    font-size: 22px;
+}
+     .button4 {
+    top: 90px;
+}
+     .button5 {
+         font-size: 10px;
+    }
+     .background {
+         padding-top: 90px;
+    }
+    .video-box img {
+    height: 230px;
+    
+}
+     .card-body {
+         margin-top: 0px;
+    }
+     .plan h1 {
+         font-size: 35px;
+    }
+     .text-learn {
+         font-size: 17px;
+         line-height: 24px;
+    }
+     form h6 {
+         margin-left: 0px;
+    }
+     .logo-footer {
+         width: 50%;
+    }
+     input{
+         width: 45%;
+    }
+     .btn {
+         font-size: 12px;
+    }
+     .owl-item  {
+       
+    margin-right: 50px !important;
+
+}
+.owl-item img {
+     display: block;
+     width: 100% !important;
+}
+}
+
